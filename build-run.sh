@@ -1,9 +1,9 @@
-# This script compile code, using clang++ and most common parameters
+# This script compile code using clang++
 # First parameter $1 is must be file name (use Tab for auto complete)
 # Other next parameters will be pasted as parameters for compiler
 
 BaseDir="$(pwd)"
-BuildDirectory="builds/"
+BuildDirectory="out/"
 #echo $BaseDir
 
 if [ -z $1 ]; then
