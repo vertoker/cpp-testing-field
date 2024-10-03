@@ -26,17 +26,17 @@ public:
   Data(int value) : Value(value) {}
 };
 
-void func(){
+void func1(){
 
 }
 
 int main () {
   std::cout << "ACM" << std::endl;
 
-  func();
+  func1();
 
-  std::cout << "Allocations count: " << allocationCount << std::endl;
-  std::cout << "Allocated bytes: " << allocatedBytes << std::endl;
+  std::cout << "Allocations count: " << allocationCount;
+  std::cout << ", with allocated bytes: " << allocatedBytes << std::endl;
   std::cout << "Copies count: " << copiesCount << std::endl;
   std::cout << "Moves count: " << movesCount << std::endl;
 
