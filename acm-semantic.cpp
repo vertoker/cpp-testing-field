@@ -75,7 +75,7 @@ void func4() {
 int main () {
   std::cout << "ACM" << std::endl;
 
-  func3();
+  func1();
 
   std::cout << "Allocations count: " << allocationCount;
   std::cout << ", with allocated bytes: " << allocatedBytes << std::endl;
