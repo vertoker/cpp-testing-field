@@ -4,3 +4,7 @@
 [Bb]uilds/
 [Oo]ut/
 
+# IDE meta files
+/.vs
+/.vscode
+.idea/
