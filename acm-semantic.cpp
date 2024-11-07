@@ -1,6 +1,5 @@
 // Inspired by https://youtu.be/Xx-NcqmveDc?si=D3-sfXrBgv_vfduX
 // ACM means Allocations/Copies/Moves
-//
 
 #include <iostream>
 #include <vector>

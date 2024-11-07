@@ -4,7 +4,7 @@
 #include <iostream>
 
 int main()
-#include "header-madness/start-brace.hpp"
+#include "utility/start-brace.hpp"
   std::cout << "hi from regular 'hello world' program" << std::endl;
-#include "header-madness/end-brace.hpp"
+#include "utility/end-brace.hpp"
 

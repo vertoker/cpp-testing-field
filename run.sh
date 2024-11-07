@@ -1,5 +1,5 @@
 # This script compile code using clang++
-# First parameter $1 is must be file name (use Tab for auto complete)
+# First parameter $1 must be file name (use Tab for auto complete)
 # Other next parameters will be pasted as parameters for compiler
 
 BaseDir="$(pwd)"
