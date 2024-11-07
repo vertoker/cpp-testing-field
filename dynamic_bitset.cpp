@@ -117,7 +117,7 @@ public:
     }
     
     void resize(const size_t& new_size, const bool& value = false) {
-        if (new_size > _bit_size) { // update allocated bits
+        if (new_size > _bit_size && _bit_size > 0) { // update allocated bits
             auto& last = _data.back();
             if (value) {
                 uint8_t offset = static_cast<uint8_t>(8 - _bit_size % 8);
