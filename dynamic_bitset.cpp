@@ -2,7 +2,7 @@
 // Modified version of:
 // https://github.com/syoyo/dynamic_bitset/blob/master/dynamic_bitset.hh
 // https://github.com/martinstarkov/ecs/blob/main/include/ecs/ecs.h
-
+// Reworked and improved by vertoker
 
 // Start copy here
 
